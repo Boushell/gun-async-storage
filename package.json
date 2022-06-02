@@ -18,7 +18,7 @@
     "gunjs",
     "gun"
   ],
-  "main": "lib/index.ts",
+  "main": "src/index.ts",
   "typings": "lib/index.d.ts",
   "scripts": {
     "prepublish": "tsc",
