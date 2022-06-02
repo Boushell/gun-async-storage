@@ -21,6 +21,7 @@
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
+    "prepublish": "tsc",
     "prettier": "prettier --write \"src/**/*.ts\"",
     "lib": "tsc",
     "prepublishOnly": "npm run lib"
